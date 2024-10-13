@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-parent-child-relationships",
-  "version": "1.0.1",
+  "version": "1.1.0",  // Bump version to reflect the changes
   "description": "Strapi plugin to create and manage parent-child relationships between content types using custom fields",
   "keywords": [
     "strapi",
@@ -34,7 +34,7 @@
     "styled-components": "^5.3.6"
   },
   "peerDependencies": {
-    "@strapi/strapi": "^4.4.0",
+    "@strapi/strapi": "^4.4.0 || ^5.0.0",  // Allow both Strapi v4 and v5
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
     "react-router-dom": "^5.3.4",
